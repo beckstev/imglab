@@ -420,6 +420,7 @@
                         .rect(shape.points[2] * scale, shape.points[3] * scale)
                         .move(shape.points[0] * scale, shape.points[1] * scale)
                         .addClass('labelbox shape')
+                        .style(shape.style)
                         .id(shape.id)
                         .resize();
                     rect.parent().draggable();
